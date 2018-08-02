@@ -36,8 +36,7 @@ public class SellerServiceImpl implements SellerService {
 
 	@Override
 	public Seller readById(long id) {
-		// TODO Auto-generated method stub
-		return null;
+		return sellerRepository.findBySellerId(id);
 	}
 
 	@Override
@@ -64,32 +63,30 @@ public class SellerServiceImpl implements SellerService {
 
 	@Override
 	public Seller readActiveByName(String name) {
-		// TODO Auto-generated method stub
+		List<Seller> result = sellerRepository.findByNameIgnoreCaseAndRecordStatus(name, RecordStatus.Active);
+		if (null != result && !result.isEmpty())
+			return result.get(0);
 		return null;
 	}
 
 	@Override
 	public List<Seller> readAllInActiveByName(String name) {
-		// TODO Auto-generated method stub
-		return null;
+		return sellerRepository.findByNameIgnoreCaseAndRecordStatus(name, RecordStatus.InActive);
 	}
 
 	@Override
 	public Seller update(Seller seller) {
-		// TODO Auto-generated method stub
-		return null;
+		return validateAndCreate(seller);
 	}
 
 	@Override
-	public List<Seller> readAllInActiveCaterers() {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Seller> readAllInActiveSellers() {
+		return sellerRepository.findByRecordStatus(RecordStatus.InActive);
 	}
 
 	@Override
 	public Seller getByUser(User user) {
-		// TODO Auto-generated method stub
-		return null;
+		return sellerRepository.findByUser(user);
 	}
 
 }
