@@ -12,7 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.collegeproject.codetype.UserRole;
+import com.collegeproject.model.Seller;
 import com.collegeproject.model.User;
+import com.collegeproject.service.SellerService;
 import com.collegeproject.service.UserService;
 
 @Path("/demodata")
@@ -21,6 +23,9 @@ public class Demodata {
 
 	@Autowired
 	UserService userService;
+
+	@Autowired
+	SellerService sellerService;
 
 	@POST
 	public void generateDemoData() throws NoSuchAlgorithmException {
@@ -38,6 +43,25 @@ public class Demodata {
 		Map<String, Object> model = new HashMap<String, Object>();
 
 		model.put("user", user);
+
+		user = new User();
+		user.setUserName("Vinay");
+		user.setPassword("p");
+		user.setEmail("vinaykumarcs.ait@gmail.com");
+		user.setUserRole(UserRole.Seller);
+		user.setConfirmPassword("p");
+		user.setCreatedDate(LocalDateTime.now());
+		user.setLastModifiedDate(LocalDateTime.now());
+		user.setProfileImage(
+				"https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Batman-BenAffleck.jpg/200px-Batman-BenAffleck.jpg");
+		Seller seller = new Seller();
+		seller.setCreatedDate(LocalDateTime.now());
+		seller.setLastModifiedDate(LocalDateTime.now());
+		seller.setDescription("Test seller...");
+		seller.setName("Indian Technologies..");
+		seller.setUser(user);
+		seller = sellerService.validateAndCreate(seller);
+
 		System.out.println("*****************************Done with Demo Data *************************************");
 	}
 

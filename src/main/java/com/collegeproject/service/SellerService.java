@@ -21,7 +21,7 @@ public interface SellerService {
 
 	public Seller update(Seller seller);
 
-	public List<Seller> readAllInActiveCaterers();
+	public List<Seller> readAllInActiveSellers();
 
 	public Seller getByUser(User user);
 
