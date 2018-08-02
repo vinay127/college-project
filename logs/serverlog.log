@@ -544,3 +544,11 @@ List of constraint violations:[
 2018-08-02 20:55:35.862  INFO 26624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
 2018-08-02 20:55:35.866  INFO 26624 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 5.362 seconds (JVM running for 6.015)
 2018-08-02 20:55:36.056  INFO 26624 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-02 20:58:47.499  INFO 26624 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-02 20:58:47.500  INFO 26624 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d778add: startup date [Thu Aug 02 20:55:30 IST 2018]; root of context hierarchy
+2018-08-02 20:58:47.503  INFO 26624 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-02 20:58:47.504  INFO 26624 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-02 20:58:47.508  INFO 26624 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 20:58:47.509  INFO 26624 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-02 20:58:47.683  INFO 26624 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-08-02 20:58:47.693  INFO 26624 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

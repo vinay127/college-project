@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns="applicationdata.xsd"
+elementFormDefault="qualified">
+<xsd:element name = "applicationdata">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name = "element" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:sequence>
+						<!-- Definition of elements -->
+						<xsd:element name="key">
+							<xsd:simpleType>
+								<xsd:restriction base="xsd:string"/>
+							</xsd:simpleType>
+						</xsd:element>
+						<xsd:element name="value">
+							<xsd:simpleType>
+								<xsd:restriction base="xsd:string"/>
+							</xsd:simpleType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>
