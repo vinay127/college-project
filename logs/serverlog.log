@@ -1,0 +1,267 @@
+2018-08-02 18:51:30.931  INFO 19512 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 19512 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-02 18:51:30.934  INFO 19512 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-02 18:51:30.981  INFO 19512 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@149e0f5d: startup date [Thu Aug 02 18:51:30 IST 2018]; root of context hierarchy
+2018-08-02 18:51:31.869  INFO 19512 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 18:51:32.399  INFO 19512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-02 18:51:32.420  INFO 19512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-02 18:51:32.420  INFO 19512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-02 18:51:32.425  INFO 19512 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-02 18:51:32.507  INFO 19512 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-02 18:51:32.507  INFO 19512 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1526 ms
+2018-08-02 18:51:32.564  INFO 19512 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 18:51:32.564  INFO 19512 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-02 18:51:32.747  INFO 19512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-02 18:51:32.983  INFO 19512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-02 18:51:33.027  INFO 19512 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 18:51:33.040  INFO 19512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 18:51:33.108  INFO 19512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-02 18:51:33.110  INFO 19512 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 18:51:33.155  INFO 19512 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 18:51:33.319  INFO 19512 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-02 18:51:33.330  INFO 19512 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-02 18:51:33.332  INFO 19512 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@61c76850
+2018-08-02 18:51:33.755  WARN 19512 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-02 18:51:33.755  WARN 19512 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "users" does not exist, skipping
+2018-08-02 18:51:33.756  WARN 19512 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-02 18:51:33.756  WARN 19512 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2018-08-02 18:51:34.073  INFO 19512 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@69fe0ed4'
+2018-08-02 18:51:34.075  INFO 19512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 18:51:34.656  INFO 19512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 18:51:34.657  INFO 19512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 18:51:34.662  INFO 19512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-02 18:51:34.686  INFO 19512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-02 18:51:34.689  INFO 19512 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 4.056 seconds (JVM running for 4.649)
+2018-08-02 18:55:06.776  INFO 19512 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-02 18:55:06.777  INFO 19512 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@149e0f5d: startup date [Thu Aug 02 18:51:30 IST 2018]; root of context hierarchy
+2018-08-02 18:55:06.782  INFO 19512 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-02 18:55:06.782  INFO 19512 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-02 18:55:06.783  INFO 19512 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 18:55:06.783  INFO 19512 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-02 18:55:06.900  INFO 19512 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-08-02 18:55:06.921  INFO 19512 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-08-02 18:55:11.790  INFO 19797 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 19797 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-02 18:55:11.797  INFO 19797 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-02 18:55:11.850  INFO 19797 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b6776cb: startup date [Thu Aug 02 18:55:11 IST 2018]; root of context hierarchy
+2018-08-02 18:55:12.538  INFO 19797 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 18:55:12.963  INFO 19797 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-02 18:55:12.985  INFO 19797 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-02 18:55:12.985  INFO 19797 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-02 18:55:12.990  INFO 19797 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-02 18:55:13.077  INFO 19797 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-02 18:55:13.078  INFO 19797 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1228 ms
+2018-08-02 18:55:13.187  INFO 19797 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 18:55:13.188  INFO 19797 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-02 18:55:13.355  INFO 19797 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-02 18:55:13.421  INFO 19797 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-02 18:55:13.464  INFO 19797 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 18:55:13.475  INFO 19797 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 18:55:13.540  INFO 19797 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-02 18:55:13.542  INFO 19797 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 18:55:13.588  INFO 19797 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 18:55:13.818  INFO 19797 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-02 18:55:13.846  INFO 19797 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-02 18:55:13.849  INFO 19797 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1fbf088b
+2018-08-02 18:55:14.373  WARN 19797 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-02 18:55:14.373  WARN 19797 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "users" does not exist, skipping
+2018-08-02 18:55:14.374  WARN 19797 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-02 18:55:14.374  WARN 19797 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2018-08-02 18:55:14.775  INFO 19797 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@175c5c3a'
+2018-08-02 18:55:14.778  INFO 19797 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 18:55:15.477  INFO 19797 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 18:55:15.478  INFO 19797 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 18:55:15.483  INFO 19797 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-02 18:55:15.513  INFO 19797 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-02 18:55:15.517  INFO 19797 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 4.049 seconds (JVM running for 4.876)
+2018-08-02 19:15:02.513  INFO 20594 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 20594 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-02 19:15:02.517  INFO 20594 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-02 19:15:02.566  INFO 20594 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f627d13: startup date [Thu Aug 02 19:15:02 IST 2018]; root of context hierarchy
+2018-08-02 19:15:03.531  INFO 20594 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 19:15:03.973  INFO 20594 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-02 19:15:03.994  INFO 20594 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-02 19:15:03.995  INFO 20594 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-02 19:15:04.001  INFO 20594 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-02 19:15:04.248  INFO 20594 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-02 19:15:04.248  INFO 20594 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1682 ms
+2018-08-02 19:15:04.322  INFO 20594 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 19:15:04.323  INFO 20594 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-02 19:15:04.492  INFO 20594 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-02 19:15:04.566  INFO 20594 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-02 19:15:04.618  INFO 20594 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:15:04.631  INFO 20594 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 19:15:04.712  INFO 20594 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-02 19:15:04.713  INFO 20594 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 19:15:04.748  INFO 20594 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 19:15:04.967  INFO 20594 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-02 19:15:04.986  INFO 20594 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-02 19:15:04.987  INFO 20594 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2489e84a
+2018-08-02 19:15:05.791  INFO 20594 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3af10d0b'
+2018-08-02 19:15:05.794  INFO 20594 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:15:06.473  INFO 20594 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 19:15:06.474  INFO 20594 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 19:15:06.479  INFO 20594 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-02 19:15:06.509  INFO 20594 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-02 19:15:06.512  INFO 20594 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 4.354 seconds (JVM running for 4.991)
+2018-08-02 19:16:52.576  INFO 20738 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 20738 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-02 19:16:52.581  INFO 20738 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-02 19:16:52.634  INFO 20738 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ea2bc93: startup date [Thu Aug 02 19:16:52 IST 2018]; root of context hierarchy
+2018-08-02 19:16:53.484  INFO 20738 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 19:16:54.040  INFO 20738 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-02 19:16:54.065  INFO 20738 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-02 19:16:54.065  INFO 20738 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-02 19:16:54.070  INFO 20738 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-02 19:16:54.166  INFO 20738 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-02 19:16:54.167  INFO 20738 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1534 ms
+2018-08-02 19:16:54.248  INFO 20738 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 19:16:54.249  INFO 20738 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-02 19:16:54.451  INFO 20738 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-02 19:16:54.537  INFO 20738 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-02 19:16:54.593  INFO 20738 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:16:54.609  INFO 20738 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 19:16:54.693  INFO 20738 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-02 19:16:54.694  INFO 20738 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 19:16:54.730  INFO 20738 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 19:16:54.946  INFO 20738 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-02 19:16:54.967  INFO 20738 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-02 19:16:54.968  INFO 20738 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@682af059
+2018-08-02 19:16:55.814  INFO 20738 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@27ec8754'
+2018-08-02 19:16:55.817  INFO 20738 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:16:56.537  INFO 20738 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 19:16:56.539  INFO 20738 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 19:16:56.546  INFO 20738 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-02 19:16:56.590  INFO 20738 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-02 19:16:56.596  INFO 20738 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 4.416 seconds (JVM running for 5.018)
+2018-08-02 19:18:53.035  INFO 20928 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 20928 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-02 19:18:53.042  INFO 20928 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-02 19:18:53.097  INFO 20928 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bb9e6dc: startup date [Thu Aug 02 19:18:53 IST 2018]; root of context hierarchy
+2018-08-02 19:18:53.929  INFO 20928 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 19:18:54.465  INFO 20928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-02 19:18:54.487  INFO 20928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-02 19:18:54.488  INFO 20928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-02 19:18:54.493  INFO 20928 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-02 19:18:54.610  INFO 20928 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-02 19:18:54.611  INFO 20928 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1514 ms
+2018-08-02 19:18:54.677  INFO 20928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 19:18:54.677  INFO 20928 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-02 19:18:54.867  INFO 20928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-02 19:18:54.960  INFO 20928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-02 19:18:55.015  INFO 20928 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:18:55.032  INFO 20928 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 19:18:55.143  INFO 20928 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-02 19:18:55.144  INFO 20928 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 19:18:55.181  INFO 20928 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 19:18:55.366  INFO 20928 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-02 19:18:55.382  INFO 20928 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-02 19:18:55.383  INFO 20928 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@766a49c7
+2018-08-02 19:18:56.289  INFO 20928 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5aa76ad2'
+2018-08-02 19:18:56.292  INFO 20928 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:18:56.989  INFO 20928 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 19:18:56.990  INFO 20928 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 19:18:56.995  INFO 20928 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-02 19:18:57.027  INFO 20928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-02 19:18:57.031  INFO 20928 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 4.372 seconds (JVM running for 4.927)
+2018-08-02 19:18:57.105 ERROR 20928 --- [main] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.User] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.User, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.User, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-02 19:22:04.342  INFO 20928 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-02 19:22:04.343  INFO 20928 --- [RMI TCP Connection(10)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bb9e6dc: startup date [Thu Aug 02 19:18:53 IST 2018]; root of context hierarchy
+2018-08-02 19:22:04.348  INFO 20928 --- [RMI TCP Connection(10)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-02 19:22:04.349  INFO 20928 --- [RMI TCP Connection(10)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-02 19:22:04.350  INFO 20928 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:22:04.351  INFO 20928 --- [RMI TCP Connection(10)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-02 19:22:04.464  INFO 20928 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-08-02 19:22:04.473  INFO 20928 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-08-02 19:22:07.850  INFO 21130 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 21130 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-02 19:22:07.864  INFO 21130 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-02 19:22:07.923  INFO 21130 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ea2bc93: startup date [Thu Aug 02 19:22:07 IST 2018]; root of context hierarchy
+2018-08-02 19:22:08.696  INFO 21130 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 19:22:09.069  INFO 21130 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-02 19:22:09.089  INFO 21130 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-02 19:22:09.089  INFO 21130 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-02 19:22:09.094  INFO 21130 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-02 19:22:09.171  INFO 21130 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-02 19:22:09.171  INFO 21130 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1248 ms
+2018-08-02 19:22:09.231  INFO 21130 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 19:22:09.232  INFO 21130 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-02 19:22:09.414  INFO 21130 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-02 19:22:09.516  INFO 21130 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-02 19:22:09.564  INFO 21130 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:22:09.576  INFO 21130 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 19:22:09.654  INFO 21130 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-02 19:22:09.657  INFO 21130 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 19:22:09.694  INFO 21130 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 19:22:09.878  INFO 21130 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-02 19:22:09.894  INFO 21130 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-02 19:22:09.895  INFO 21130 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@45c9b3
+2018-08-02 19:22:10.342  WARN 21130 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-02 19:22:10.343  WARN 21130 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "users" does not exist, skipping
+2018-08-02 19:22:10.344  WARN 21130 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-02 19:22:10.344  WARN 21130 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2018-08-02 19:22:10.708  INFO 21130 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@34edd065'
+2018-08-02 19:22:10.712  INFO 21130 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:22:11.395  INFO 21130 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 19:22:11.396  INFO 21130 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 19:22:11.402  INFO 21130 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-02 19:22:11.438  INFO 21130 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-02 19:22:11.441  INFO 21130 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 4.005 seconds (JVM running for 4.521)
+2018-08-02 19:22:11.528 ERROR 21130 --- [main] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.User] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.User, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.User, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-02 19:25:19.184  INFO 21130 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-02 19:25:19.185  INFO 21130 --- [RMI TCP Connection(9)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ea2bc93: startup date [Thu Aug 02 19:22:07 IST 2018]; root of context hierarchy
+2018-08-02 19:25:19.193  INFO 21130 --- [RMI TCP Connection(9)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-02 19:25:19.194  INFO 21130 --- [RMI TCP Connection(9)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-02 19:25:19.195  INFO 21130 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:25:19.195  INFO 21130 --- [RMI TCP Connection(9)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-02 19:25:19.303  INFO 21130 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-08-02 19:25:19.310  INFO 21130 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-08-02 19:25:22.992  INFO 21309 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 21309 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-02 19:25:22.998  INFO 21309 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-02 19:25:23.039  INFO 21309 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@748741cb: startup date [Thu Aug 02 19:25:23 IST 2018]; root of context hierarchy
+2018-08-02 19:25:23.743  INFO 21309 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-02 19:25:24.130  INFO 21309 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-02 19:25:24.149  INFO 21309 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-02 19:25:24.150  INFO 21309 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-02 19:25:24.155  INFO 21309 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-02 19:25:24.231  INFO 21309 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-02 19:25:24.232  INFO 21309 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1193 ms
+2018-08-02 19:25:24.293  INFO 21309 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 19:25:24.294  INFO 21309 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-02 19:25:24.475  INFO 21309 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-02 19:25:24.539  INFO 21309 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-02 19:25:24.587  INFO 21309 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:25:24.598  INFO 21309 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-02 19:25:24.667  INFO 21309 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-02 19:25:24.669  INFO 21309 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-02 19:25:24.707  INFO 21309 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-02 19:25:24.915  INFO 21309 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-02 19:25:24.932  INFO 21309 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-02 19:25:24.933  INFO 21309 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4db60246
+2018-08-02 19:25:25.358  WARN 21309 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-02 19:25:25.359  WARN 21309 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "users" does not exist, skipping
+2018-08-02 19:25:25.360  WARN 21309 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-02 19:25:25.360  WARN 21309 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2018-08-02 19:25:25.673  INFO 21309 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e85c21b'
+2018-08-02 19:25:25.676  INFO 21309 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-02 19:25:26.352  INFO 21309 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-02 19:25:26.353  INFO 21309 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 19:25:26.358  INFO 21309 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-02 19:25:26.387  INFO 21309 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-02 19:25:26.390  INFO 21309 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 3.726 seconds (JVM running for 4.221)
