@@ -55,6 +55,10 @@ public class Demodata {
 		user.setProfileImage(
 				"https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Batman-BenAffleck.jpg/200px-Batman-BenAffleck.jpg");
 		Seller seller = new Seller();
+		seller.setCreatedDate(LocalDateTime.now());
+		seller.setLastModifiedDate(LocalDateTime.now());
+		seller.setDescription("Test seller...");
+		seller.setName("Indian Technologies..");
 		seller.setUser(user);
 		seller = sellerService.validateAndCreate(seller);
 
