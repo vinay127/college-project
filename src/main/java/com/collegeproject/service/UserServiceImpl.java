@@ -66,39 +66,34 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User update(User customer) throws NoSuchAlgorithmException {
-		// TODO Auto-generated method stub
-		return null;
+	public User update(User user) throws NoSuchAlgorithmException {
+		user.setPassword(readById(user.getUserid()).getPassword());
+		return validateAndCreateCustomer(user);
 	}
 
 	@Override
 	public User readByEmail(String email) {
-		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findByEmail(email);
 	}
 
 	@Override
 	public User readByUserName(String userName) {
-		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findByUserName(userName);
 	}
 
 	@Override
 	public User findByEmailAndPassword(String email, String password) {
-		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findByEmailAndPassword(email, password);
 	}
 
 	@Override
 	public List<User> getAllNonApprovedMerchants() {
-		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findByIsApprovedAndUserRole(false, UserRole.Seller);
 	}
 
 	@Override
 	public User readById(long id) {
-		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findByUserid(id);
 	}
 
 }
