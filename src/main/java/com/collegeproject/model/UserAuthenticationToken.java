@@ -51,14 +51,14 @@ public class UserAuthenticationToken implements Serializable {
 	@Convert(converter = LocalDateTimeConverter.class)
 	private LocalDateTime expiryDate = LocalDateTime.now();
 
-	@NotNull
+//	@NotNull
 	@CreatedDate
 	@JsonIgnore
 	@Column(name = "createddate")
 	@Convert(converter = LocalDateTimeConverter.class)
 	private LocalDateTime createdDate;
 
-	@NotNull
+//	@NotNull
 	@LastModifiedDate
 	@JsonIgnore
 	@Column(name = "lastmodifieddate")

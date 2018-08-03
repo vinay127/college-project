@@ -1,0 +1,342 @@
+2018-08-03 12:20:16.729  INFO 8418 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 8418 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-03 12:20:16.734  INFO 8418 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-03 12:20:16.795  INFO 8418 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43b9fd5: startup date [Fri Aug 03 12:20:16 IST 2018]; root of context hierarchy
+2018-08-03 12:20:17.780  INFO 8418 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-03 12:20:18.384  INFO 8418 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-03 12:20:18.405  INFO 8418 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-03 12:20:18.406  INFO 8418 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-03 12:20:18.414  INFO 8418 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-03 12:20:18.542  INFO 8418 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-03 12:20:18.542  INFO 8418 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1747 ms
+2018-08-03 12:20:18.617  INFO 8418 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-03 12:20:18.618  INFO 8418 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-03 12:20:18.784  INFO 8418 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-03 12:20:18.855  INFO 8418 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-03 12:20:18.904  INFO 8418 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:20:18.919  INFO 8418 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-03 12:20:19.000  INFO 8418 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-03 12:20:19.002  INFO 8418 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-03 12:20:19.060  INFO 8418 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-03 12:20:19.261  INFO 8418 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-03 12:20:19.277  INFO 8418 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-03 12:20:19.279  INFO 8418 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@fa5f81c
+2018-08-03 12:20:19.906  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.907  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "project" does not exist, skipping
+2018-08-03 12:20:19.908  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.908  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "seller" does not exist, skipping
+2018-08-03 12:20:19.909  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.909  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:20:19.910  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.914  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "applicationdata" does not exist, skipping
+2018-08-03 12:20:19.915  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.915  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "project" does not exist, skipping
+2018-08-03 12:20:19.916  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.916  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "seller" does not exist, skipping
+2018-08-03 12:20:19.916  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.916  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:20:19.917  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.917  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "users" does not exist, skipping
+2018-08-03 12:20:19.918  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:20:19.918  WARN 8418 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2018-08-03 12:20:21.171  INFO 8418 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@33bdd01'
+2018-08-03 12:20:21.176  INFO 8418 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:20:21.541  INFO 8418 --- [main] c.c.service.ApplicationDataUtilImpl      : Entering fetchXmlPath()
+2018-08-03 12:20:22.071  INFO 8418 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-03 12:20:22.072  INFO 8418 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-03 12:20:22.077  INFO 8418 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-03 12:20:22.114  INFO 8418 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-03 12:20:22.117  INFO 8418 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 5.889 seconds (JVM running for 6.937)
+2018-08-03 12:20:22.255  INFO 8418 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-03 12:23:01.840  INFO 8418 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-03 12:23:01.840  INFO 8418 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43b9fd5: startup date [Fri Aug 03 12:20:16 IST 2018]; root of context hierarchy
+2018-08-03 12:23:01.843  INFO 8418 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-03 12:23:01.844  INFO 8418 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-03 12:23:01.845  INFO 8418 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-03 12:23:01.849  INFO 8418 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:23:01.850  INFO 8418 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-03 12:23:02.040  INFO 8418 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-08-03 12:23:02.043  INFO 8418 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-08-03 12:23:55.984  INFO 8710 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 8710 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-03 12:23:55.989  INFO 8710 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-03 12:23:56.051  INFO 8710 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@54eb2b70: startup date [Fri Aug 03 12:23:56 IST 2018]; root of context hierarchy
+2018-08-03 12:23:56.858  INFO 8710 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-03 12:23:57.262  INFO 8710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-03 12:23:57.284  INFO 8710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-03 12:23:57.285  INFO 8710 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-03 12:23:57.294  INFO 8710 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-03 12:23:57.391  INFO 8710 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-03 12:23:57.391  INFO 8710 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1340 ms
+2018-08-03 12:23:57.727  INFO 8710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-03 12:23:57.727  INFO 8710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-03 12:23:57.728  INFO 8710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-03 12:23:57.728  INFO 8710 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet com.collegeproject.JerseyConfig mapped to [/*]
+2018-08-03 12:23:57.945  INFO 8710 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-03 12:23:58.037  INFO 8710 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-03 12:23:58.089  INFO 8710 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:23:58.106  INFO 8710 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-03 12:23:58.190  INFO 8710 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-03 12:23:58.192  INFO 8710 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-03 12:23:58.354  INFO 8710 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-03 12:23:58.463  INFO 8710 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-03 12:23:58.480  INFO 8710 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-03 12:23:58.482  INFO 8710 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@798256c5
+2018-08-03 12:23:59.025  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.025  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "project" does not exist, skipping
+2018-08-03 12:23:59.026  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.026  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "seller" does not exist, skipping
+2018-08-03 12:23:59.027  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.027  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:23:59.028  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.028  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "applicationdata" does not exist, skipping
+2018-08-03 12:23:59.028  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.029  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "project" does not exist, skipping
+2018-08-03 12:23:59.029  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.029  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "seller" does not exist, skipping
+2018-08-03 12:23:59.030  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.030  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:23:59.031  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.031  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "users" does not exist, skipping
+2018-08-03 12:23:59.031  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:23:59.032  WARN 8710 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2018-08-03 12:24:00.293  INFO 8710 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1282e98'
+2018-08-03 12:24:00.302  INFO 8710 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:24:00.700  INFO 8710 --- [main] c.c.service.ApplicationDataUtilImpl      : Entering fetchXmlPath()
+2018-08-03 12:24:01.052  INFO 8710 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-03 12:24:01.054  INFO 8710 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-03 12:24:01.059  INFO 8710 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-03 12:24:01.098  INFO 8710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-03 12:24:01.105  INFO 8710 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 5.517 seconds (JVM running for 6.109)
+2018-08-03 12:24:01.284  INFO 8710 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-03 12:24:06.211 ERROR 8710 --- [http-nio-8085-exec-3] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.UserAuthenticationToken] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-03 12:24:06.413 ERROR 8710 --- [http-nio-8085-exec-3] c.c.exception.GenericExceptionMapper     : org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2018-08-03 12:24:58.125 ERROR 8710 --- [http-nio-8085-exec-2] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.UserAuthenticationToken] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-03 12:24:58.127 ERROR 8710 --- [http-nio-8085-exec-2] c.c.exception.GenericExceptionMapper     : org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2018-08-03 12:25:01.218 ERROR 8710 --- [http-nio-8085-exec-5] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.UserAuthenticationToken] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-03 12:25:01.222 ERROR 8710 --- [http-nio-8085-exec-5] c.c.exception.GenericExceptionMapper     : org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2018-08-03 12:25:04.708 ERROR 8710 --- [http-nio-8085-exec-7] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.UserAuthenticationToken] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-03 12:25:04.711 ERROR 8710 --- [http-nio-8085-exec-7] c.c.exception.GenericExceptionMapper     : org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2018-08-03 12:25:07.230 ERROR 8710 --- [http-nio-8085-exec-8] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.UserAuthenticationToken] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-03 12:25:07.233 ERROR 8710 --- [http-nio-8085-exec-8] c.c.exception.GenericExceptionMapper     : org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2018-08-03 12:25:12.149 ERROR 8710 --- [http-nio-8085-exec-10] c.c.exception.GenericExceptionMapper     : java.lang.NullPointerException
+2018-08-03 12:25:13.394 ERROR 8710 --- [http-nio-8085-exec-1] c.c.exception.GenericExceptionMapper     : java.lang.NullPointerException
+2018-08-03 12:26:07.458  INFO 8710 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-03 12:26:07.458  INFO 8710 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@54eb2b70: startup date [Fri Aug 03 12:23:56 IST 2018]; root of context hierarchy
+2018-08-03 12:26:07.462  INFO 8710 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-03 12:26:07.463  INFO 8710 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-03 12:26:07.465  INFO 8710 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:26:07.465  INFO 8710 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-03 12:26:07.691  INFO 8710 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-08-03 12:26:07.698  INFO 8710 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-08-03 12:26:11.215  INFO 8892 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 8892 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-03 12:26:11.220  INFO 8892 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-03 12:26:11.269  INFO 8892 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74bf1791: startup date [Fri Aug 03 12:26:11 IST 2018]; root of context hierarchy
+2018-08-03 12:26:12.193  INFO 8892 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-03 12:26:12.616  INFO 8892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-03 12:26:12.641  INFO 8892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-03 12:26:12.641  INFO 8892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-03 12:26:12.646  INFO 8892 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-03 12:26:12.737  INFO 8892 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-03 12:26:12.738  INFO 8892 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1469 ms
+2018-08-03 12:26:13.097  INFO 8892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-03 12:26:13.098  INFO 8892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-03 12:26:13.098  INFO 8892 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-03 12:26:13.098  INFO 8892 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet com.collegeproject.JerseyConfig mapped to [/*]
+2018-08-03 12:26:13.301  INFO 8892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-03 12:26:13.391  INFO 8892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-03 12:26:13.440  INFO 8892 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:26:13.455  INFO 8892 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-03 12:26:13.537  INFO 8892 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-03 12:26:13.539  INFO 8892 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-03 12:26:13.686  INFO 8892 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-03 12:26:13.793  INFO 8892 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-03 12:26:13.809  INFO 8892 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-03 12:26:13.811  INFO 8892 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3596b249
+2018-08-03 12:26:14.369  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.370  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "project" does not exist, skipping
+2018-08-03 12:26:14.370  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.371  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "seller" does not exist, skipping
+2018-08-03 12:26:14.371  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.371  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:26:14.372  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.372  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "applicationdata" does not exist, skipping
+2018-08-03 12:26:14.373  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.373  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "project" does not exist, skipping
+2018-08-03 12:26:14.373  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.373  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "seller" does not exist, skipping
+2018-08-03 12:26:14.374  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.374  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:26:14.375  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.375  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "users" does not exist, skipping
+2018-08-03 12:26:14.376  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:26:14.376  WARN 8892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2018-08-03 12:26:15.751  INFO 8892 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@43c39321'
+2018-08-03 12:26:15.758  INFO 8892 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:26:16.101  INFO 8892 --- [main] c.c.service.ApplicationDataUtilImpl      : Entering fetchXmlPath()
+2018-08-03 12:26:16.484  INFO 8892 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-03 12:26:16.486  INFO 8892 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-03 12:26:16.492  INFO 8892 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-03 12:26:16.531  INFO 8892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-03 12:26:16.537  INFO 8892 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 5.685 seconds (JVM running for 6.24)
+2018-08-03 12:26:16.735  INFO 8892 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-03 12:26:21.879 ERROR 8892 --- [http-nio-8085-exec-2] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.UserAuthenticationToken] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-03 12:26:22.069 ERROR 8892 --- [http-nio-8085-exec-2] c.c.exception.GenericExceptionMapper     : org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2018-08-03 12:26:25.161 ERROR 8892 --- [http-nio-8085-exec-4] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [Validation failed for classes [com.collegeproject.model.UserAuthenticationToken] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=createdDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be null', propertyPath=lastModifiedDate, rootBeanClass=class com.collegeproject.model.UserAuthenticationToken, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]]
+2018-08-03 12:26:25.176 ERROR 8892 --- [http-nio-8085-exec-4] c.c.exception.GenericExceptionMapper     : org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2018-08-03 12:29:05.832  INFO 8892 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-03 12:29:05.832  INFO 8892 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@74bf1791: startup date [Fri Aug 03 12:26:11 IST 2018]; root of context hierarchy
+2018-08-03 12:29:05.836  INFO 8892 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-03 12:29:05.837  INFO 8892 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-03 12:29:05.839  INFO 8892 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:29:05.839  INFO 8892 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-03 12:29:06.022  INFO 8892 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-08-03 12:29:06.032  INFO 8892 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-08-03 12:29:09.203  INFO 9187 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 9187 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-03 12:29:09.208  INFO 9187 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-03 12:29:09.262  INFO 9187 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ef5c734: startup date [Fri Aug 03 12:29:09 IST 2018]; root of context hierarchy
+2018-08-03 12:29:10.220  INFO 9187 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-03 12:29:10.799  INFO 9187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-03 12:29:10.830  INFO 9187 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-03 12:29:10.831  INFO 9187 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-03 12:29:10.841  INFO 9187 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-03 12:29:11.049  INFO 9187 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-03 12:29:11.049  INFO 9187 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1788 ms
+2018-08-03 12:29:11.463  INFO 9187 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-03 12:29:11.464  INFO 9187 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-03 12:29:11.464  INFO 9187 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-03 12:29:11.464  INFO 9187 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet com.collegeproject.JerseyConfig mapped to [/*]
+2018-08-03 12:29:11.633  INFO 9187 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-03 12:29:11.725  INFO 9187 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-03 12:29:11.777  INFO 9187 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:29:11.793  INFO 9187 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-03 12:29:11.882  INFO 9187 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-03 12:29:11.884  INFO 9187 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-03 12:29:12.047  INFO 9187 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-03 12:29:12.193  INFO 9187 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-03 12:29:12.218  INFO 9187 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-03 12:29:12.220  INFO 9187 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f2a1813
+2018-08-03 12:29:12.900  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.900  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "project" does not exist, skipping
+2018-08-03 12:29:12.901  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.902  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "seller" does not exist, skipping
+2018-08-03 12:29:12.903  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.903  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:29:12.904  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.904  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "applicationdata" does not exist, skipping
+2018-08-03 12:29:12.904  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.904  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "project" does not exist, skipping
+2018-08-03 12:29:12.904  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.905  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "seller" does not exist, skipping
+2018-08-03 12:29:12.905  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.905  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:29:12.905  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.905  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "users" does not exist, skipping
+2018-08-03 12:29:12.906  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:29:12.906  WARN 9187 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "hibernate_sequence" does not exist, skipping
+2018-08-03 12:29:14.097  INFO 9187 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2a136383'
+2018-08-03 12:29:14.102  INFO 9187 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:29:14.628  INFO 9187 --- [main] c.c.service.ApplicationDataUtilImpl      : Entering fetchXmlPath()
+2018-08-03 12:29:15.105  INFO 9187 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-03 12:29:15.107  INFO 9187 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-03 12:29:15.113  INFO 9187 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-03 12:29:15.146  INFO 9187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-03 12:29:15.150  INFO 9187 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 6.348 seconds (JVM running for 6.974)
+2018-08-03 12:29:15.266  INFO 9187 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-03 12:30:54.952 ERROR 9187 --- [http-nio-8085-exec-5] c.c.exception.GenericExceptionMapper     : com.collegeproject.exception.CollegeProjectInfoException: Invalid email or password
+2018-08-03 12:31:09.508 ERROR 9187 --- [http-nio-8085-exec-7] c.c.exception.GenericExceptionMapper     : com.collegeproject.exception.CollegeProjectInfoException: Invalid email or password
+2018-08-03 12:31:39.491  INFO 9187 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-03 12:31:39.491  INFO 9187 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ef5c734: startup date [Fri Aug 03 12:29:09 IST 2018]; root of context hierarchy
+2018-08-03 12:31:39.494  INFO 9187 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-03 12:31:39.495  INFO 9187 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-03 12:31:39.497  INFO 9187 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:31:39.497  INFO 9187 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-03 12:31:43.195  INFO 9689 --- [main] c.c.CollegeProjectApplication            : Starting CollegeProjectApplication on supritha-ThinkPad-E460 with PID 9689 (/home/supritha/College-Project/college-project/target/classes started by supritha in /home/supritha/College-Project/college-project)
+2018-08-03 12:31:43.199  INFO 9689 --- [main] c.c.CollegeProjectApplication            : No active profile set, falling back to default profiles: default
+2018-08-03 12:31:43.250  INFO 9689 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73302995: startup date [Fri Aug 03 12:31:43 IST 2018]; root of context hierarchy
+2018-08-03 12:31:44.117  INFO 9689 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-03 12:31:44.543  INFO 9689 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2018-08-03 12:31:44.563  INFO 9689 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-03 12:31:44.563  INFO 9689 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-03 12:31:44.568  INFO 9689 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-08-03 12:31:44.662  INFO 9689 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-03 12:31:44.662  INFO 9689 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1413 ms
+2018-08-03 12:31:44.913  INFO 9689 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-03 12:31:44.913  INFO 9689 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-03 12:31:44.913  INFO 9689 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-08-03 12:31:44.913  INFO 9689 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet com.collegeproject.JerseyConfig mapped to [/*]
+2018-08-03 12:31:45.056  INFO 9689 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-08-03 12:31:45.131  INFO 9689 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-08-03 12:31:45.181  INFO 9689 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:31:45.194  INFO 9689 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-03 12:31:45.277  INFO 9689 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-03 12:31:45.279  INFO 9689 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-03 12:31:45.326  INFO 9689 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-03 12:31:45.542  INFO 9689 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL92Dialect
+2018-08-03 12:31:45.558  INFO 9689 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2018-08-03 12:31:45.560  INFO 9689 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@29be997f
+2018-08-03 12:31:46.114  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:31:46.115  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "project" does not exist, skipping
+2018-08-03 12:31:46.115  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:31:46.115  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation "seller" does not exist, skipping
+2018-08-03 12:31:46.209  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:31:46.210  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "fkedqohpk74iwhya32pkc47isdu" of relation "userauthenticationtoken" does not exist, skipping
+2018-08-03 12:31:46.211  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:31:46.211  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "applicationdata" does not exist, skipping
+2018-08-03 12:31:46.212  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:31:46.212  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "project" does not exist, skipping
+2018-08-03 12:31:46.212  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2018-08-03 12:31:46.213  WARN 9689 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "seller" does not exist, skipping
+2018-08-03 12:31:47.456  INFO 9689 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@28989415'
+2018-08-03 12:31:47.461  INFO 9689 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:31:47.809  INFO 9689 --- [main] c.c.service.ApplicationDataUtilImpl      : Entering fetchXmlPath()
+2018-08-03 12:31:48.219  INFO 9689 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-03 12:31:48.220  INFO 9689 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-03 12:31:48.225  INFO 9689 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-03 12:31:48.253  INFO 9689 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2018-08-03 12:31:48.257  INFO 9689 --- [main] c.c.CollegeProjectApplication            : Started CollegeProjectApplication in 5.379 seconds (JVM running for 6.0)
+2018-08-03 12:31:48.447  INFO 9689 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-03 12:58:06.738  INFO 9689 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-03 12:58:06.738  INFO 9689 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73302995: startup date [Fri Aug 03 12:31:43 IST 2018]; root of context hierarchy
+2018-08-03 12:58:06.740  INFO 9689 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-03 12:58:06.741  INFO 9689 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-03 12:58:06.743  INFO 9689 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-03 12:58:06.744  INFO 9689 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-03 12:58:06.933  INFO 9689 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-08-03 12:58:06.939  INFO 9689 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
